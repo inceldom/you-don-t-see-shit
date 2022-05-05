@@ -1,6 +1,4 @@
---[[
-	code generated using luamin.js, Herrtt#3868
---]]
+
 
 -- This file was generated using Luraph Obfuscator v13.4.5
 
@@ -821,7 +819,6 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 						while true do
 							local TK = (A1[gj]);
 							local WK = (TK[2]);
-							if #TK>2 then	warn(unpack(TK)) end
 							gj = gj + 1;
 							if not(WK >= 57) then
 								do
@@ -1111,7 +1108,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 													if not(WK >= 53) then
 														if not(WK < 51) then
 															if WK ~= 52 then
-																do
+																do print(TK[3],v3,"flag1");
 																	if TK[3] ~= v3 then
 																		local dL = (TK[6]);
 																		for sa = dL, dL + (TK[1] - 1) do
@@ -1133,7 +1130,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 														else
 															if WK == 50 then
 																(vj)[TK[6]] = pO;
-															else
+															else print(TK[5],vj[TK[3]],"flag2") 
 																if TK[5] ~= vj[TK[3]] then
 																	do
 																		gj = gj + 1;
@@ -1192,7 +1189,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 																do
 																	(vj)[TK[6]] = TK[5] / TK[4];
 																end;
-															else
+															else-- print(TK[5],TK[4],"flag3")
 																(vj)[TK[6]] = TK[5] ~= TK[4];
 															end;
 														end;
@@ -1251,7 +1248,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 														end;
 													else
 														if not(WK < 29) then
-															if WK == 30 then
+															if WK == 30 then print(TK[5],TK[4],"flag4")
 																if TK[5] ~= TK[4] then
 																	gj = gj + 1;
 																end;
@@ -1323,7 +1320,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 																else
 																	gj = gj + 1;
 																end;
-															else
+															else --print(vj[TK[1]] , vj[TK[3]],"flag5")
 																(vj)[TK[6]] = vj[TK[1]] ~= vj[TK[3]];
 															end;
 														end;
@@ -1439,7 +1436,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 																	end;
 																end;
 															end;
-														else
+														else print(WK , p3,"flag5")
 															if WK ~= p3 then
 																vj[TK[6]][vj[TK[1]]] = TK[4];
 															else
@@ -1737,7 +1734,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 											if not(WK < 60) then
 												do
 													if not(WK >= 62) then
-														if WK ~= 61 then
+														if WK ~= 61 then print(vj[TK[1]],TK[4],"flag6")
 															if vj[TK[1]] ~= TK[4] then
 															else
 																gj = gj + 1;
