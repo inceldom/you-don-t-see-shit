@@ -821,6 +821,7 @@ return (function(T3, y3, d3, iO, Z3, dO, mO, eO, aO, XO, g3, WO, OO, u3, qO, EO,
 						while true do
 							local TK = (A1[gj]);
 							local WK = (TK[2]);
+							if #TK>2 then	warn(unpack(TK)) end
 							gj = gj + 1;
 							if not(WK >= 57) then
 								do
